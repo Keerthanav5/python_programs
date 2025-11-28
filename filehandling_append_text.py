@@ -1,0 +1,6 @@
+f=open("sample.txt","a+")
+f.write(" Welcome to file handling")
+f.seek(0)
+data=f.read()
+print(data)
+f.close()
